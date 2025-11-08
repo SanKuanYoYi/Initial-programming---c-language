@@ -17,7 +17,7 @@ int main(){
         num++;
     }
     
-    for(int i=1;str[i]!=EOF;i++){
+    for(int i=1;str[i]!='\0';i++){
         
         if(str[i]==' ' && str[i+1]!=' '){
             UpAlp[num]=str[i+1];
@@ -33,3 +33,4 @@ int main(){
     
     return 0;
 }
+
